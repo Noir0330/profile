@@ -414,6 +414,7 @@ export default function Home() {
               <img class="w-4 cursor-pointer" src="./img/linkedin.png" alt="" />
             </div>
           </div>
+      </div>
         </div>
       </div>
     </div>
