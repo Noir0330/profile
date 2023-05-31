@@ -115,10 +115,7 @@ export default function Home() {
               Сайн уу, Би Duke байна.
             </h1>
             <p class="text-gray-400">
-              Би fullstack хөгжүүлэгч болохоор сурч байгаа оюутан. Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. N oumquam quo
-              provident, facere minus temporibus veniam nostrum reprehenderit
-              nihil?
+              Би fullstack хөгжүүлэгч болохоор сурч байгаа оюутан. 
             </p>
             <a
               class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
