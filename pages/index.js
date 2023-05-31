@@ -150,8 +150,7 @@ export default function Home() {
                 Tодорхойлов:
               </h1>
               <p class="text-gray-400">
-                Би өөрийгөө олон талт байдлаар хөгжүүлэх сонирхолтой.
-                Мэдээж алхам алхмаар
+                Програмчлалын хэлүүд
               </p>
               <h2 class="text-gray-400 font-medium">HTML,CSS</h2>
               <div class="w-full bg-gray-200 h-1.5 rounded-md">
@@ -399,9 +398,7 @@ export default function Home() {
               <h1 class="text-3xl dark:text-white">
                 Таньд мэдэхийг хүссэн асуулт байна уу?
               </h1>
-              <p class="w-1/2 text-center text-gray-400">
-                Би таны санааг хэлэлцэж шийдэлд хүргэнэ.
-              </p>
+              
             </div>
             {/* bottom  */}
             <form class="mt-5 p-8 flex flex-col gap-5 items-center">
