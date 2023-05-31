@@ -115,13 +115,13 @@ export default function Home() {
               Сайн уу, Би Duke байна.
             </h1>
             <p class="text-gray-400">
-              Би fullstack хөгжүүлэгч болохоор сурч байгаа оюутан. 
+              Би fullstack хөгжүүлэгч болохоор 1.6 жилийн гэрээтэйгээр сурч байгаа. Одоогоор 1 жилийн хугацаанд HTML, CSS, JS, C++, SQL, PYTHON гэх эдгээр хичээлүүдийг сурч мэдсэн байна.
             </p>
             <a
               class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
               href="#contact"
             >
-              Hire me
+              Info
             </a>
           </div>
         </div>
@@ -143,14 +143,14 @@ export default function Home() {
             <div class="my-auto flex flex-col gap-3">
               <h1 class="text-indigo-600 font-bold">Танилцуулга</h1>
               <h1 class="text-3xl font-medium dark:text-white">
-                Сайн Боловсрол
+                Боловсрол, Mэдлэгдэхүүнүүд 
               </h1>
               <h1 class="text-3xl font-medium dark:text-white">
-                Сайхан Ирээдүй
+                Өөриигөө үнэлж, тодорхойлов:
               </h1>
               <p class="text-gray-400">
-                Би өөрийгөө олон талт байдлаар хөгжүүлэх сонирхолтой нэгэн.
-                Мэдээж илүү баттайгаар алхам алхмаар
+                Би өөрийгөө олон талт байдлаар хөгжүүлэх сонирхолтой.
+                Мэдээж алхам алхмаар
               </p>
               <h2 class="text-gray-400 font-medium">HTML,CSS</h2>
               <div class="w-full bg-gray-200 h-1.5 rounded-md">
@@ -164,9 +164,15 @@ export default function Home() {
               <div class="w-full bg-gray-200 h-1.5 rounded-md">
                 <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
               </div>
+
               <h2 class="text-gray-400 font-medium">TailwindCss</h2>
               <div class="w-full bg-gray-200 h-1.5 rounded-md">
                 <div class="w-2/4 bg-indigo-600 h-1.5 rounded-md"></div>
+
+              <h2 class="text-gray-400 font-medium">React</h2>
+              <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                <div class="w-1/3 bg-indigo-600 h-1.5 rounded-md"></div>
+
               </div>
             </div>
           </div>
@@ -176,13 +182,12 @@ export default function Home() {
           <div class="container mx-auto">
             {/* top  */}
             <div class="flex flex-col gap-3 items-center">
-              <h1 class="text-indigo-600 font-bold">Үйлчилгээ</h1>
+              <h1 class="text-indigo-600 font-bold">Зэвсэг</h1>
               <h1 class="text-3xl dark:text-white">
                 Би таньд юу санал болгож чадах?
               </h1>
               <p class="w-1/2 text-center text-gray-400">
-                Сурсан мэдснээ шавхаж өөрийгөө дайчлан таньд хэрэгцээтэй
-                үйлчилгээг үзүүлнэ.
+                 Сурсан мэдлэгдэхүүнүүдийн үнэлэмжүүд:
               </p>
             </div>
             {/* bottom  */}
@@ -194,7 +199,7 @@ export default function Home() {
                   UX / UI Design
                 </h1>
                 <p class="text-gray-400">
-                  Nothing to write found Lorem ipsum dolor sit amet consectetur.
+                  Жижиг, жижиг+ хэмжээний website, web app-ний зохиомж хийж, мөн тухайн апп-ныхаа design-г  зурна.
                 </p>
                 <a class="text-indigo-600 font-semibold text-sm" href="">
                   Read More
@@ -205,7 +210,7 @@ export default function Home() {
                 <img class="w-10" src="./img/icon.png" alt="" />
                 <h1 class="font-medium text-lg dark:text-white">REACT</h1>
                 <p class="text-gray-400">
-                  Nothing to write found Lorem ipsum dolor sit amet consectetur.
+                   Одоогоор хуваарай 30% орчмын судалсан, Сургуульд үзэх хугацаа энэ оны 8 сарын 1нээс
                 </p>
                 <a class="text-indigo-600 font-semibold text-sm" href="">
                   Read More
@@ -216,7 +221,7 @@ export default function Home() {
                 <img class="w-10" src="./img/icon.png" alt="" />
                 <h1 class="font-medium text-lg dark:text-white">C++</h1>
                 <p class="text-gray-400">
-                  Nothing to write found Lorem ipsum dolor sit amet consectetur.
+                  Basic
                 </p>
                 <a class="text-indigo-600 font-semibold text-sm" href="">
                   Read More
@@ -229,9 +234,9 @@ export default function Home() {
                   TAILWIND CSS framework
                 </h1>
                 <p class="text-gray-400">
-                  Nothing to write found Lorem ipsum dolor sit amet consectetur.
+                  Intermediate
                 </p>
-                <a class="text-indigo-600 font-semibold text-sm" href="">
+                <a class="text-indigo-600 font-semibold text-sm" href="#">
                   Read More
                 </a>
               </div>
@@ -240,9 +245,9 @@ export default function Home() {
                 <img class="w-10" src="./img/icon.png" alt="" />
                 <h1 class="font-medium text-lg dark:text-white">JAVASCRIPT</h1>
                 <p class="text-gray-400">
-                  Nothing to write found Lorem ipsum dolor sit amet consectetur.
+                  Жижиг, жижиг+ төсөл бичнэ
                 </p>
-                <a class="text-indigo-600 font-semibold text-sm" href="">
+                <a class="text-indigo-600 font-semibold text-sm" href="#">
                   Read More
                 </a>
               </div>
@@ -251,7 +256,7 @@ export default function Home() {
                 <img class="w-10" src="./img/icon.png" alt="" />
                 <h1 class="font-medium text-lg dark:text-white">HTML, CSS</h1>
                 <p class="text-gray-400">
-                  Nothing to write found Lorem ipsum dolor sit amet consectetur.
+                  Responsive design-ний туршлага бага, бусдаар oke
                 </p>
                 <a class="text-indigo-600 font-semibold text-sm" href="">
                   Read More
