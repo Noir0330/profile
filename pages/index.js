@@ -147,7 +147,7 @@ export default function Home() {
                 Боловсрол, Mэдлэгдэхүүнүүд 
               </h1>
               <h1 class="text-3xl font-medium dark:text-white">
-                Өөриигөө үнэлж, тодорхойлов:
+                Tодорхойлов:
               </h1>
               <p class="text-gray-400">
                 Би өөрийгөө олон талт байдлаар хөгжүүлэх сонирхолтой.
@@ -169,11 +169,22 @@ export default function Home() {
               <h2 class="text-gray-400 font-medium">TailwindCss</h2>
               <div class="w-full bg-gray-200 h-1.5 rounded-md">
                 <div class="w-2/4 bg-indigo-600 h-1.5 rounded-md"></div>
+              </div>
 
               <h2 class="text-gray-400 font-medium">React</h2>
               <div class="w-full bg-gray-200 h-1.5 rounded-md">
-                <div class="w-2/4 bg-indigo-600 h-1.5 rounded-md"></div>
+                <div class="w-1/4 bg-indigo-600 h-1.5 rounded-md"></div>
+              </div>
 
+              <h2 class="text-gray-400 font-medium">SQL</h2>
+              <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                <div class="w-2/4 bg-indigo-600 h-1.5 rounded-md"></div>
+              </div>
+
+        <h2 class="text-gray-400 font-medium">Python</h2>
+              <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                <div class="w-2/4 bg-indigo-600 h-1.5 rounded-md"></div>
+              </div>
               </div>
             </div>
           </div>
@@ -185,7 +196,7 @@ export default function Home() {
             <div class="flex flex-col gap-3 items-center">
               <h1 class="text-indigo-600 font-bold">Зэвсэг</h1>
               <h1 class="text-3xl dark:text-white">
-                Би таньд юу санал болгож чадах?
+                Дээрх stats мэдээллүүдийг үгэн хэлбэрт оруулав
               </h1>
               <p class="w-1/2 text-center text-gray-400">
                  Сурсан мэдлэгдэхүүнүүдийн үнэлэмжүүд:
@@ -258,6 +269,29 @@ export default function Home() {
                 <h1 class="font-medium text-lg dark:text-white">HTML, CSS</h1>
                 <p class="text-gray-400">
                   Responsive design-ний туршлага бага, бусдаар oke
+                </p>
+                <a class="text-indigo-600 font-semibold text-sm" href="">
+                  Read More
+                </a>
+              </div>
+              {/* card */}
+               <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+                <img class="w-10" src="./img/icon.png" alt="" />
+                <h1 class="font-medium text-lg dark:text-white">SQL</h1>
+                <p class="text-gray-400">
+                  Crud бичих хэмжээнд
+                </p>
+                <a class="text-indigo-600 font-semibold text-sm" href="">
+                  Read More
+                </a>
+              </div>
+  
+              {/* card */}
+               <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+                <img class="w-10" src="./img/icon.png" alt="" />
+                <h1 class="font-medium text-lg dark:text-white">Python</h1>
+                <p class="text-gray-400">
+                  Basic, Tkinter, Flask framework(бодит төсөл хийж үзээгүй)
                 </p>
                 <a class="text-indigo-600 font-semibold text-sm" href="">
                   Read More
@@ -414,7 +448,6 @@ export default function Home() {
               <img class="w-4 cursor-pointer" src="./img/linkedin.png" alt="" />
             </div>
           </div>
-      </div>
         </div>
       </div>
     </div>
