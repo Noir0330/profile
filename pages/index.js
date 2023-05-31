@@ -172,7 +172,7 @@ export default function Home() {
 
               <h2 class="text-gray-400 font-medium">React</h2>
               <div class="w-full bg-gray-200 h-1.5 rounded-md">
-                <div class="w-1/3 bg-indigo-600 h-1.5 rounded-md"></div>
+                <div class="w-2/4 bg-indigo-600 h-1.5 rounded-md"></div>
 
               </div>
             </div>
